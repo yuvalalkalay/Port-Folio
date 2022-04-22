@@ -1,0 +1,157 @@
+.mainDiv{
+    display: grid;
+    background-color: #0d1b2a;
+    margin: 0%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 80px 0.8fr 1fr 1fr 1fr;
+    gap: 15px;
+}
+
+.NavBar{
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+.pDiv{
+    color: rgb(224, 224, 224);
+    text-align: start;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.pHead{
+    color: white;
+    font-size: 55px;
+}
+
+.pBody{
+    color: rgb(163, 177, 177);
+    font-size: 20px;
+}
+
+.projectsDiv{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+    display: grid;
+    grid-template-rows: 100px 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 60px;
+    margin-left: 400px;
+}
+
+.projectsH1{
+    font-size: 40px;
+    color: white;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.projectsComp{
+    margin-top: 60px;
+    width: 400px;
+    border-radius: 15px;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    color: white;
+    box-shadow: 0px 0px 11px -2px rgba(255,255,255,0.7);
+    -webkit-box-shadow: 0px 0px 11px -2px rgba(255,255,255,0.7);
+    -moz-box-shadow: 0px 0px 11px -2px rgba(255,255,255,0.7);
+    transition: 200ms;
+}
+
+.projectsComp:hover{
+    transform: scale(1.1);
+}
+
+.yuvalPoto{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+
+.img{
+    height: 200px;
+    width: 400px;
+    border-radius: 15px;
+    
+}
+
+.projectsCom1{
+    margin-top: 60px;
+    width: 400px;
+    border-radius: 15px;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    color: white;
+    box-shadow: 0px 0px 11px -2px rgba(255,255,255,0.7);
+    -webkit-box-shadow: 0px 0px 11px -2px rgba(255,255,255,0.7);
+    -moz-box-shadow: 0px 0px 11px -2px rgba(255,255,255,0.7);
+    transition: 200ms;
+}
+
+.projectsCom1:hover{
+    transform: scale(1.1);
+}
+
+.skiles{
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+    display: grid;
+    grid-template-rows: 60px 100px 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 40px;
+    margin-left: 400px;
+}
+
+.sH1Div{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.sH1{
+    margin: 0px;
+    text-align: start;
+    font-size: 40px;
+    color: white;
+}
+
+.icons{
+    padding-left: 15px;
+    font-size: 35px;
+    color: white;
+}
+
+.frontSkill{
+    grid-row-start: 3; 
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    color: white;
+    text-align: start;
+}
+
+.backSkill{
+    grid-row-start: 3; 
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    color: white;
+    text-align: start;
+}
+
+.DBSkill{
+    grid-row-start: 3; 
+    grid-row-end: 4;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    color: white;
+    text-align: start;
+}
