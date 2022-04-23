@@ -47,28 +47,49 @@ const Index = ()=>{
 
             </div>
 
-            <div className="projectsDiv">
+            <div className="projectsDiv" id="projects">
 
                 <h1 className="projectsH1">Projects</h1>
 
                 <div className="projectsComp">
                     <img className="img" src={shopWeb} alt="undefined" />
                     <h1>shop web</h1>
+                    <table className="table">
+                        <tr>
+                            <td>
+                                <a className="a" href="https://github.com/yuvalalkalay/shopWeb">view code</a>
+                            </td>
+                        </tr>
+                    </table>
                 </div>
 
                 <div className="projectsComp">
                     <img className="img" src={basicFSP} alt="undefined" />
                     <h1>basic full stack project</h1>
+                    <table className="table">
+                        <tr>
+                            <td>
+                                <a className="a" href="https://github.com/yuvalalkalay/full-stack-basic-project">view code</a>
+                            </td>
+                        </tr>
+                    </table>
                 </div>
 
                 <div className="projectsCom1">
                     <img className="img" src={TTT} alt="undefined" />
                     <h1>Tik Tak Toe game</h1>
+                    <table className="table">
+                        <tr>
+                            <td>
+                                <a className="a" href="https://github.com/yuvalalkalay/Tik-Tak-Toe">view code</a>
+                            </td>
+                        </tr>
+                    </table>
                 </div>
 
             </div>
 
-            <div className="skiles">
+            <div className="skiles" id="skills">
                 <div className="sH1Div">
                     <h1 className="sH1">Technologies and Skills</h1>
                 </div>
