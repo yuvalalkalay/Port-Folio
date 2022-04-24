@@ -1,6 +1,7 @@
 import React from "react";
 import { FaReact, FaNodeJs, FaDatabase } from "react-icons/fa";
-import {SiRedux, SiMysql, SiMongodb} from 'react-icons/si';
+import { SiRedux, SiMysql, SiMongodb } from 'react-icons/si';
+import { HiOutlineMailOpen } from 'react-icons/hi'
 
 import NavBar from "../components/NavBar";
 import '../styles/Index.css';
@@ -10,10 +11,11 @@ import shopWeb from '../images/shopWeb.PNG';
 import basicFSP from '../images/basicFSP.PNG';
 import TTT from '../images/TTT.PNG';
 
+
 const Index = ()=>{
+
     return(
         <div className="mainDiv">
-
             <div className="NavBar">
             
                 <NavBar />
@@ -55,11 +57,13 @@ const Index = ()=>{
                     <img className="img" src={shopWeb} alt="undefined" />
                     <h1>shop web</h1>
                     <table className="table">
-                        <tr>
-                            <td>
-                                <a className="a" href="https://github.com/yuvalalkalay/shopWeb">view code</a>
-                            </td>
-                        </tr>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <a className="a" href="https://github.com/yuvalalkalay/shopWeb">view code</a>
+                                </td>
+                            </tr>
+                        </tbody>
                     </table>
                 </div>
 
@@ -67,11 +71,13 @@ const Index = ()=>{
                     <img className="img" src={basicFSP} alt="undefined" />
                     <h1>basic full stack project</h1>
                     <table className="table">
-                        <tr>
-                            <td>
-                                <a className="a" href="https://github.com/yuvalalkalay/full-stack-basic-project">view code</a>
-                            </td>
-                        </tr>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <a className="a" href="https://github.com/yuvalalkalay/full-stack-basic-project">view code</a>
+                                </td>
+                            </tr>
+                        </tbody>
                     </table>
                 </div>
 
@@ -79,11 +85,14 @@ const Index = ()=>{
                     <img className="img" src={TTT} alt="undefined" />
                     <h1>Tik Tak Toe game</h1>
                     <table className="table">
-                        <tr>
-                            <td>
-                                <a className="a" href="https://github.com/yuvalalkalay/Tik-Tak-Toe">view code</a>
-                            </td>
-                        </tr>
+
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <a className="a" href="https://github.com/yuvalalkalay/Tik-Tak-Toe">view code</a>
+                                </td>
+                            </tr>
+                        </tbody>
                     </table>
                 </div>
 
@@ -135,7 +144,26 @@ const Index = ()=>{
 
                 </div>
 
+                <div className="contactH">
+                    <div className="sH1Div">
+                        <h1 className="sH1">Contact</h1>
+                    </div> 
+                </div>
+
+                <div className="contactB" id="contact">
+
+                    <HiOutlineMailOpen className="icons"/>
+                    <h2>Email</h2>
+                        
+                    <p className="contactP">
+                        yuval.alkalay1@gmail.com
+                    </p>
+
+                </div>
+            
+
             </div>
+
         </div>
     )
 }

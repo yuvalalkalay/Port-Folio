@@ -10,7 +10,7 @@ const NavBar = ()=>{
                 <li className="liP">Portfolio</li>
                 <li className="li"> <a className="an" href="#projects">Projects</a></li>
                 <li className="li"><a className="an" href="#skills">Skills</a></li>
-                <li className="li"><a className="an" href="#contuct">Contact</a></li>
+                <li className="li"><a className="an" href="#contact">Contact</a></li>
                 <li className="li"><a className="an" href="https://github.com/yuvalalkalay"><FaGithub /> GitHub</a></li>
                 <li className="li"><a className="an" href="https://www.linkedin.com/in/yuval-alkalay-890b17195/"><FaLinkedin /> LinkedIn</a></li>
             </ul>
