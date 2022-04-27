@@ -17,9 +17,9 @@ const Index = ()=>{
     return(
         <div className="mainDiv">
             <div className="NavBar">
-            
+
                 <NavBar />
-            
+
             </div>
 
             <div>
@@ -35,12 +35,12 @@ const Index = ()=>{
                 </p>
 
                 <p className="pBody">
-                    I'm a Self-Taught Full-Stack Developer. I have a
+                    I'm a Full-Stack Developer and Practical Engineer.<br/> I have a
                     great passion for web development.
                 </p>
                 <p className="pBody">
-                    Fluent English speaker, well-organized person,
-                    quick learner, problem solver, independent employee with high attention to detail. Basketball fan, gym rat and stock market enthusiast.
+                    well-organized person, self learner and quick Understands, 
+                    problem solver, independent employee with high attention to detail.
                 </p>
                 <p className="pBody">
                     Interested in the entire Full-Stack specturm and working
@@ -56,6 +56,9 @@ const Index = ()=>{
                 <div className="projectsComp">
                     <img className="img" src={shopWeb} alt="undefined" />
                     <h1>shop web</h1>
+                    <p>
+                        shoping website
+                    </p>
                     <table className="table">
                         <tbody>
                             <tr>
@@ -70,6 +73,9 @@ const Index = ()=>{
                 <div className="projectsComp">
                     <img className="img" src={basicFSP} alt="undefined" />
                     <h1>basic full stack project</h1>
+                    <p>
+                        Students manager website
+                    </p>
                     <table className="table">
                         <tbody>
                             <tr>
@@ -84,6 +90,9 @@ const Index = ()=>{
                 <div className="projectsCom1">
                     <img className="img" src={TTT} alt="undefined" />
                     <h1>Tik Tak Toe game</h1>
+                    <p>
+                        Tik Tak Toe game website
+                    </p>
                     <table className="table">
 
                         <tbody>
@@ -155,12 +164,24 @@ const Index = ()=>{
                     <HiOutlineMailOpen className="icons"/>
                     <h2>Email</h2>
                         
-                    <p className="contactP">
+                    <p className="contactCV">
                         yuval.alkalay1@gmail.com
                     </p>
 
+                    <div className="CV">
+                        <table className="table">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <a className="a" href="https://drive.google.com/file/d/1vhgq5OExjjNV_Dgjtlqdgk7b6K8HymTp/view">View CV</a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
                 </div>
-            
+                        
 
             </div>
 

@@ -30,3 +30,9 @@
 .an:hover{
     color: white;
 }
+
+@media ( max-width : 1024px) {
+    .main{
+        visibility: hidden;
+    }
+}
