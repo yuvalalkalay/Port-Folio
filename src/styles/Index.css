@@ -220,6 +220,10 @@ html{
 }
 
 @media ( max-width : 1024px ){
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
     .mainDiv{
         display: grid;
         display: flex;
